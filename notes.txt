@@ -1,0 +1,58 @@
+<!-- <section id="nav-buttons" aria-label="Buttons naar verschillende toegankelijkheidscategorieen">
+            <a href="waarneembaar.html"><button class="landing-btn">Waarneembaar</button>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                    height="140" viewBox="0 0 220 140">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#b9005f" />
+                            <stop offset="1" stop-color="#e30059" />
+                        </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                </svg>
+            </a>
+            <a href="robuust.html"><button class="landing-btn">Robuust</button>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                    height="140" viewBox="0 0 220 140">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#b9005f" />
+                            <stop offset="1" stop-color="#e30059" />
+                        </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                </svg>
+            </a>
+            <a href="bedienbaar.html"><button class="landing-btn">Bedienbaar</button>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                    height="140" viewBox="0 0 220 140">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#b9005f" />
+                            <stop offset="1" stop-color="#e30059" />
+                        </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                </svg>
+            </a>
+            <a href="begrijpelijk.html"><button class="landing-btn">Begrijpelijk</button>
+                <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="220"
+                    height="140" viewBox="0 0 220 140">
+                    <defs>
+                        <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+                            <stop offset="0" stop-color="#b9005f" />
+                            <stop offset="1" stop-color="#e30059" />
+                        </linearGradient>
+                    </defs>
+                    <path id="Icon_awesome-folder" data-name="Icon awesome-folder"
+                        d="M199.375,27.833h-82.5L89.375,4.5H20.625C9.234,4.5,0,12.335,0,22V127c0,9.665,9.234,17.5,20.625,17.5h178.75C210.766,144.5,220,136.665,220,127V45.333C220,35.668,210.766,27.833,199.375,27.833Z"
+                        transform="translate(0 -4.5)" fill="url(#linear-gradient)" />
+                </svg>
+            </a>
+        </section> -->

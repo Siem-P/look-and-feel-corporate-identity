@@ -1,0 +1,129 @@
+@media (max-width: 599px) {
+  .main-content {
+    display: inline-flex;
+    /* display: none; */
+  }
+
+  .startbutton {
+    width: 12em;
+    height: 4.5em;
+    grid-row: 3;
+    align-self: flex-end;
+  }
+
+  .logo {
+    width: 50vw;
+    float: left;
+  }
+
+  .hamburger-menu {
+    display: flex;
+    margin-right: 1em;
+    align-self: center;
+  }
+
+  /* Homepage */
+  h1 {
+    grid-column: 1;
+    grid-row: 2;
+    justify-self: center;
+    text-align: center;
+    align-self: flex-start;
+    padding-left: 1em;
+    padding-right: 1em;
+    font-size: 130%;
+  }
+
+  h2 {
+    grid-column: 1;
+    grid-row: 2;
+    padding-left: 1em;
+    padding-right: 1em;
+    text-align: center;
+    align-self: flex-end;
+    font-size: 120%;
+  }
+
+  header {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    
+  }
+  
+  #side-nav {
+    display: flex;
+    overflow: auto;
+    /* position: sticky; */
+    width: 100%;
+    /* top: 10vh; */
+   /* float: left; */
+    margin: 0;
+    top: 0;
+    padding: 1em 1em;
+    white-space: nowrap;
+    /* width: 100vw; */
+    /* width: fit-content; */
+    font-size: 100%;
+  }
+
+  #side-nav ol li {
+  display: inline-block;
+  }
+  
+  #side-nav ol li .nav-button {
+    color: white;
+    border: 1px solid white;
+    padding: 0.3em;
+    font-family: "Fira sans", "sans-serif";
+    font-size: 100%;
+    text-align: left;
+    background-color: #b9005f;
+    text-decoration: none;
+  }
+
+  /* Category navigators */
+  #side-nav-primair {
+    display: flex;
+    position: absolute;;
+    bottom: 0;
+    width: 100vw;
+    /* width: 100vw; */
+    /* height: fit-content; */
+    background-color: white;
+    /* margin: 0; */
+    /* padding: 0;  */
+    /* justify-content: center; */
+    /* align-self: center; */
+  }
+
+  #side-nav-primair a {
+    margin-top: 1em;
+  }
+  
+  #side-nav-primair ul li {
+    margin: 0;
+  }
+
+  #side-nav-primair p {
+    font-size: 100%;
+  }
+
+  svg {
+    height: 2em;
+    width: 2.5em;
+    padding: 0;
+  }
+
+  section {
+    /* display: none; */
+  }
+
+
+
+  /* footer {
+    position: absolute;
+    bottom: 0;
+    overflow: hidden;
+  } */
+}

@@ -1,0 +1,34 @@
+@media (min-width: 1200px) {
+  header {
+    height: 10vh;
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 3px solid #c9b5b2;
+  }
+
+  main {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(5 1fr);
+    grid-template-areas:
+      "."
+      "."
+      "."
+      "."
+      ".";
+    /* display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center; */
+    background-color: #eeeeee;
+    height: 90vh;
+    row-gap: 1em;
+  }
+
+  h1,h2 {
+    max-width: 30rem;
+  }
+}

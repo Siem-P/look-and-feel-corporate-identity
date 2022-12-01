@@ -1,0 +1,371 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Fira sans", "sans-serif";
+  font: 100%/1.4;
+  background: #eeeeee;
+  height: 100%;
+  width: 100%;
+}
+
+header {
+  height: 10vh;
+  background-color: white;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  border-bottom: 2px solid #c9b5b2;
+  z-index: 1;
+}
+
+header a {
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 2em;
+}
+
+.logo {
+  width: 15em;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  grid-template-areas:
+    "."
+    "."
+    "."
+    "."
+    ".";
+  background-color: #eeeeee;
+  height: 85vh;
+}
+
+.startbutton {
+  background: linear-gradient(#b9005f 0%, #e30059 100%);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 6.5em;
+  width: 22em;
+  border-radius: 0.5em;
+  justify-self: center;
+  align-self: flex-start;
+  grid-column: 1;
+  grid-row: 4;
+}
+.startbutton {
+  /* content: "Begin hier!"; */
+  text-decoration: none;
+  font-size: 120%;
+  color: #fff;
+}
+
+h1 {
+  grid-column: 1;
+  grid-row: 1;
+  justify-self: center;
+  align-self: flex-end;
+  max-width: 30rem;
+}
+
+h2 {
+  grid-column: 1;
+  grid-row: 2;
+  justify-self: center;
+  align-self: space-around;
+  max-width: 30em;
+}
+
+.index-h {
+  color: black;
+}
+
+.main-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-items: center;
+  overflow: hidden;
+  height: 100%;
+  /* position: relative; */
+}
+
+/* Primair navigation menu */
+#side-nav-primair {
+  margin: auto;
+  position: static;
+}
+#side-nav-primair ul li {
+  display: inline-flex;
+  margin: auto 2em;
+}
+
+/* side navigation menu */
+#side-nav {
+  display: flex;
+  align-items: center;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: 1px solid #b9005f;
+  background-color: #b9005f;
+  width: 11em;
+  float: left;
+  position: sticky;
+  left: 0;
+  top: 15vh;
+  padding-left: 2em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  border-radius: 0.3em;
+  font-size: 1.2em;
+}
+
+#side-nav ol li {
+  list-style: decimal;
+  color: white;
+  padding: 5px;
+}
+
+#side-nav ol li:first-child .nav-button {
+  list-style-type: none;
+}
+
+#side-nav ol li .nav-button {
+  color: white;
+  border: none;
+  font-family: "Fira sans", "sans-serif";
+  font-size: 100%;
+  text-align: left;
+  background-color: #b9005f;
+  text-decoration: none;
+}
+
+/* Categorie nav */
+#side-nav-primair a {
+  margin-top: 1em;
+  text-decoration: none;
+  color: #b9005f;
+  text-align: center;
+}
+
+#side-nav .nav-button:hover {
+  color: #c9b5b2;
+  text-decoration: underline;
+}
+
+/* SVG Map Icons */
+svg {
+  height: 4em;
+  width: 4.5em;
+  padding: 1em;
+}
+
+#cards-section {
+  /* padding: 2em; */
+  margin-top: 5vh;
+}
+
+.card-heading {
+  border-radius: 0.3em;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 55em;
+  height: 40em;
+  background-color: white;
+  padding: 1em;
+  margin-bottom: 7em;
+}
+
+.card-heading ul {
+  margin-top: 3em;
+}
+
+.card-heading ul li {
+  max-width: 30em;
+  margin-top: 1em;
+  margin-left: 2em;
+  font-size: 110%;
+}
+
+/* Paragraphs */
+.card-heading p {
+  max-width: 30em;
+  margin-top: 1em;
+  font-size: 110%;
+}
+
+.card-heading h3,
+h2 {
+  margin-top: 1em;
+  color: #b9005f;
+}
+
+.card-heading .p-onderwerp {
+  position: relative;
+  /* bottom: 0em; */
+  margin-top: 3em;
+  margin-left: 1em;
+}
+
+/* Tooltip container */
+.tooltip {
+  text-decoration: none;
+  color: #b9005f;
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px solid #b9005f;
+}
+
+/* Tooltip text */
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: #b9005f;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+
+  /* Position the tooltip text - see examples below! */
+  position: absolute;
+  top: -60px;
+  left: 20px;
+  z-index: 1;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}
+.tooltip:hover {
+  color: #c9b5b2;
+}
+
+/* Button - Tip */
+#expand-tip {
+  position: absolute;
+  margin: auto;
+  bottom: -25px;
+  left: 0;
+  right: 0;
+  width: 5em;
+  height: 2em;
+  background-color: #c9b5b2;
+}
+
+.hide-show {
+  display: none;
+}
+
+footer {
+  background-color: white;
+  padding: 2em;
+}
+
+.footer-container {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-around;
+  position: relative;
+  height: 85%;
+  width: 90%;
+  /* width: 100vw; */
+  /* background-color: #b9005f; */
+  bottom: 0;
+  left: 0;
+  /* top: 100%; */
+  border-bottom: 2px solid #eeeeee;
+  margin: auto;
+  padding: 1em;
+}
+
+footer p {
+  color: #666e70;
+}
+
+.footer-social-media {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.adres-info p {
+  display: flex;
+  flex-direction: row;
+  /* padding: 0.2em; */
+}
+
+.icon-container {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.link {
+  color: #b9005f;
+}
+
+.kopje {
+  font-size: large;
+  margin-bottom: 0.5em;
+}
+
+svg {
+  padding: 1em;
+}
+
+.svg-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 1em;
+}
+/* .svg-container svg{ 
+  width: 3em;
+} */
+
+.footer-icon {
+  height: 1em;
+  width: 1em;
+  padding: 0;
+}
+
+.adres-info {
+  display: flex;
+  flex-direction: row;
+}
+
+.logo-footer img {
+  width: 14em;
+  padding: 0.5em;
+}
+
+#copyright-year {
+  margin: auto;
+  padding-top: 1em;
+  width: 20em;
+  color: #666e70;
+  text-align: center;
+}
+
+.hamburger-menu {
+  display: none;
+}
