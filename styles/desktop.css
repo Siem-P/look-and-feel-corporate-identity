@@ -1,4 +1,4 @@
-@media (min-width: 1200px) {
+/* @media (min-width: 1200px) {
   header {
     height: 10vh;
     background-color: white;
@@ -19,10 +19,10 @@
       "."
       "."
       ".";
-    /* display: flex;
+    display: flex;
         flex-direction: column;
         align-items: center;
-        justify-content: center; */
+        justify-content: center;
     background-color: #eeeeee;
     height: 90vh;
     row-gap: 1em;
@@ -31,4 +31,12 @@
   h1,h2 {
     max-width: 30rem;
   }
-}
+
+  .header-navigation {
+    display: flex;
+    
+  }
+  .head-nav {
+    flex-direction: column;
+  }
+} */
