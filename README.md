@@ -14,6 +14,7 @@ Toolgankelijk - Het overzicht van de minimale toegankelijkheid richtlijnen voor 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 In deze repository is mijn opdracht voor 'Look and feel corporate identity - Vervoerregio Amsterdam' te vinden. 
 
+
 De user stories die behandeld zijn in mijn project:
 > #1 Als organisatie wil ik een overzicht van toegankelijkheidsverbeteringen kunnen bekijken, zodat ik een gevoel kan krijgen wat er moet gebeuren om mijn website/app toegankelijker te maken op het terrein van waarneembaarheid, robuustheid, begrijpelijkheid en bedienbaarheid.
 
@@ -31,7 +32,7 @@ http://siemva.student.fdnd.nl/
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
 Voor het maken van deze website is er gebruik gemaakt van HTML, CSS & Javascript. 
-In de content pagina's staan ook doorverwijzingen naar de WCAG richtlijnen.
+
 
 ### HTML structuur
 In dit project wordt gebruik gemaakt van een simpele HTML layout. 
