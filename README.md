@@ -12,7 +12,7 @@ Toolgankelijk - Het overzicht van de minimale toegankelijkheid richtlijnen voor 
 
 ## Beschrijving
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
-In deze repository is mijn opdracht voor 'The Client Case - Vervoerregio Amsterdam' te vinden. 
+In deze repository is mijn opdracht voor 'Look and feel corporate identity - Vervoerregio Amsterdam' te vinden. 
 
 De user stories die behandeld zijn in mijn project:
 > #1 Als organisatie wil ik een overzicht van toegankelijkheidsverbeteringen kunnen bekijken, zodat ik een gevoel kan krijgen wat er moet gebeuren om mijn website/app toegankelijker te maken op het terrein van waarneembaarheid, robuustheid, begrijpelijkheid en bedienbaarheid.
